@@ -15,10 +15,14 @@ else
 fi
 cd $INSTALL_DIR
 
-repos=( 
+repos=(
+   "https://github.com/NinjaJc01/ssh-backdoor.git"
+   "https://gitlab.com/kalilinux/packages/snmpcheck.git"
+   "https://github.com/itm4n/PrintSpoofer.git"
+   "https://github.com/dievus/threader3000.git"
+   "https://github.com/samratashok/nishang.git"
    "https://github.com/shroudri/username_generator.git"
    "https://github.com/Mebus/cupp.git"
-   "https://github.com/xFreed0m/RDPassSpray.git"
    "https://github.com/shroudri/username_generator.git"
    "https://github.com/Mebus/cupp.git"
    "https://github.com/xFreed0m/RDPassSpray.git"
