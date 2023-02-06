@@ -1,10 +1,16 @@
 #!/bin/bash
 # Kaliz3tup.sh
 # Description: Simple script to pull some common pentesting repos from github
-#
+# -------------------------------------------------------------------------------
 GITCLONE='/usr/bin/git clone '
 
+# -- You may want to change this directory to where you want to install
+# -- the packages. 
+# -------------------------------------------------------------------------------
 INSTALL_DIR="$HOME/scripts2"
+
+# -- Main Code Start
+# -------------------------------------------------------------------------------
 if [ -d "$INSTALL_DIR" ]; then
    echo "$INSTALL_DIR exists, installing there."
 else
@@ -15,6 +21,8 @@ else
 fi
 cd $INSTALL_DIR
 
+# -- Free free to add additional repos for yourself, one per line as below.
+# -------------------------------------------------------------------------------
 repos=(
    "https://github.com/NinjaJc01/ssh-backdoor.git"
    "https://gitlab.com/kalilinux/packages/snmpcheck.git"
@@ -36,6 +44,10 @@ repos=(
    "https://github.com/nidem/kerberoast.git"
 )
 
+# -- This will clone the repos locally, but you will still need to install them. 
+# -- Ones for python you can probably install by just running <code>python -m pip install .</code> 
+# -- from inside the repo. 
+# -------------------------------------------------------------------------------
 for repo in "${repos[@]}"; do
    echo -n "Cloning $repo into $INSTALL_DIR... "
    echo "$GITCLONE"
