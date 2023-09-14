@@ -42,6 +42,7 @@ repos=(
    "https://github.com/gentilkiwi/mimikatz.git"
    "https://github.com/fortra/impacket.git"
    "https://github.com/nidem/kerberoast.git"
+   "https://github.com/c0ri/b64scan.git"
 )
 
 # -- This will clone the repos locally, but you will still need to install them. 
