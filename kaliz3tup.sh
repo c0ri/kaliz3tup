@@ -42,7 +42,22 @@ repos=(
    "https://github.com/gentilkiwi/mimikatz.git"
    "https://github.com/fortra/impacket.git"
    "https://github.com/nidem/kerberoast.git"
+   "--depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev"
+   "https://github.com/Hackplayers/evil-winrm"
+   "https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git"
+   "https://github.com/Arvanaghi/SessionGopher.git"
+   "https://github.com/pentestmonkey/windows-privesc-check.git"
+   "https://github.com/rasta-mouse/Sherlock.git"
+   "https://github.com/silentsignal/wpc-ps.git"
+   "https://github.com/AlessandroZ/BeRoot.git"
+   "https://github.com/enjoiz/Privesc.git"
+   "https://github.com/fortra/impacket.git"
+   "https://github.com/andrew-d/static-binaries.git"
+   "https://github.com/internetwache/GitTools.git"
+   "https://raw.githubusercontent.com/PowerShellMafia/PowerSploit/master/Recon/PowerView.ps1"
+   "https://raw.githubusercontent.com/Sq00ky/Zero-Logon-Exploit/master/zeroLogon-NullPass.py"
    "https://github.com/c0ri/b64scan.git"
+   "--recursive https://github.com/BC-SECURITY/Empire.git"
 )
 
 # -- This will clone the repos locally, but you will still need to install them. 
